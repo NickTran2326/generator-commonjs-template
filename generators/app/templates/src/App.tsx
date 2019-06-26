@@ -16,7 +16,7 @@ const App: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React With yeoman and
+          Learn React With and yeoman generator commonjs
         </a>
       </header>
     </div>
