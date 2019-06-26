@@ -1,0 +1,39 @@
+{
+    "env": {
+        "commonjs": 1,
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly",
+        "ActiveXObject": true,
+        "__IS_SERVER__": true
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-empty": "off",
+        "no-unused-vars": "off",
+        "no-useless-escape": "off",
+        "no-var": "error",
+        "quotes": [
+            "warn",
+            "double",
+            { "avoidEscape": true }
+        ],
+        "radix": "error",
+        "react/jsx-no-target-blank": "error",
+        "semi": [ "error", "always" ]
+    }
+}
